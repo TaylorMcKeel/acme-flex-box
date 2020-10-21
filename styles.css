@@ -1,0 +1,97 @@
+@viewport {
+  width: device-width;
+  zoom: 1;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  background-color: blue;
+  color: white;
+  align-items: center;
+}
+
+#title {
+  font-size: 30px;
+  margin-right: 200px;
+}
+
+#tabs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60%;
+}
+
+#title {
+  font-size: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  border: solid black 1px;
+  width: 30%;
+  align-items: flex-start;
+  padding: 20px;
+  justify-content: flex-start;
+}
+
+form > div {
+  padding: 5px;
+  margin: 5px;
+}
+
+#fname {
+  display: flex;
+  flex-direction: row;
+}
+
+label {
+  margin-right: 5px;
+}
+
+input {
+  width: 60%;
+}
+
+select {
+  width: 60%;
+}
+
+#lname {
+  display: flex;
+  flex-direction: row;
+}
+
+#depart {
+  display: flex;
+  flex-direction: row;
+}
+
+#users {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.user {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  margin: 20px;
+  border-radius: 10%;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#formtit {
+  font-size: 25px;
+}
